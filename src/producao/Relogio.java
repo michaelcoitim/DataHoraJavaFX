@@ -5,6 +5,8 @@
  */
 package producao;
 
+import java.util.Date;
+
 /**
  *
  * @author micha
@@ -87,7 +89,8 @@ public class Relogio extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnHoraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHoraActionPerformed
-        
+        Date relogio = new Date();
+        lblHora.setText(relogio.toString());
     }//GEN-LAST:event_btnHoraActionPerformed
 
     /**
