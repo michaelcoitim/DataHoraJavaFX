@@ -5,6 +5,7 @@
  */
 package producao;
 
+import java.awt.Color;
 import java.util.Date;
 
 /**
@@ -90,6 +91,7 @@ public class Relogio extends javax.swing.JFrame {
 
     private void btnHoraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHoraActionPerformed
         Date relogio = new Date();
+        lblHora.setForeground(Color.blue);
         lblHora.setText(relogio.toString());
     }//GEN-LAST:event_btnHoraActionPerformed
 
